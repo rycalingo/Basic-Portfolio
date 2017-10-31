@@ -1,0 +1,10 @@
+* { box-sizing: content-box; }
+
+header {
+	background: #999;
+	height: 100px;
+}
+
+header #name_title {
+	background: #600;
+}
