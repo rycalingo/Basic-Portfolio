@@ -101,7 +101,7 @@ nav li:hover { background:  #4aaaa5; }
 }
 
 .stage .wrapper > * {
-	min-height: 500px;
+	min-height: 100px;
 	padding: 20px;
 	display: inline-block;
 	vertical-align: top;
@@ -109,8 +109,11 @@ nav li:hover { background:  #4aaaa5; }
 .title {
 	padding-bottom: 15px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid #C7CACD;
+	border-bottom: 2px solid #C7CACD;
 	color: #4aaaa5;
+}
+aside .title {
+	border-bottom: 1px solid #C7CACD;
 }
 .main_content {
 	width: 650px;
@@ -147,9 +150,16 @@ aside {
 	margin-bottom: 20px;
 	background: #AFB0B5;
 	position: relative;
+	overflow: hidden;
 }
 .box:nth-child(odd) {
 	margin-right: 30px;
+}
+.box img {
+	width: 400px;
+	display: block;
+	position: relative;
+	left: -50px;
 }
 .box span {
 	display: block;
